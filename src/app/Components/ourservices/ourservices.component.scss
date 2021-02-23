@@ -1,0 +1,58 @@
+
+.container{
+  margin-top: 40px ;
+  margin-bottom: 40px;
+}
+h1{
+   
+    text-align: center;
+    font: large;
+    font-family: sans-serif;
+    background-color:mediumturquoise;
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column{
+    border-style: outset;
+    text-align: left;
+    float: left;
+    width: 33.33%;
+    margin-bottom: 20px;  
+    background-color: rgb(251, 245, 245);
+}
+.column h3{
+  text-align: center;
+  color:#1A2BBF ;
+}
+.column p{
+  margin: 37px;
+}
+.container .find{
+  background-color: rgb(251, 245, 245);
+}
+.container .find h2
+{
+  color:  #1A2BBF;
+}
+@media (max-width:480px)
+{
+  .column{
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .row h1{
+    margin-left: 10px;
+  }
+
+  .container .find{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
